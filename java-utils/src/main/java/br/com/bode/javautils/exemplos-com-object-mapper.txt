@@ -1,4 +1,5 @@
 1 - Case 01 = transformando objeto em arquivo .json
+2 - Case 02 = transformando arquivo .json em objeto
 
 
 Obs:

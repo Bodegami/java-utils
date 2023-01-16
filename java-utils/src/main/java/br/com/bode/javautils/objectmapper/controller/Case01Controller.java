@@ -1,6 +1,6 @@
-package br.com.bode.javautils.case01.controller;
+package br.com.bode.javautils.objectmapper.controller;
 
-import br.com.bode.javautils.case01.dto.PessoaDTO;
+import br.com.bode.javautils.objectmapper.dto.PessoaDTO;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.ResponseEntity;
@@ -14,13 +14,13 @@ import java.io.File;
 
 @RestController
 @RequestMapping("/case01")
-public class OBJMapperController {
+public class Case01Controller {
 
     private final ObjectMapper objectMapper;
 
     private static Integer count = 0;
 
-    public OBJMapperController(ObjectMapper objectMapper) {
+    public Case01Controller(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
     }
 
@@ -32,7 +32,7 @@ public class OBJMapperController {
 
         try {
 
-            objectMapper.writeValue(new File("target/pessoa_" + count), dto);
+            objectMapper.writeValue(new File("target/pessoa_" + count + ".json"), dto);
             response = "works!!!";
             status = 201;
 

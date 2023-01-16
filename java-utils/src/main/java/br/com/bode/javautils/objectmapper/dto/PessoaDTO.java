@@ -1,4 +1,4 @@
-package br.com.bode.javautils.case01.dto;
+package br.com.bode.javautils.objectmapper.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -47,5 +47,14 @@ public class PessoaDTO implements Serializable {
 
     public void setDocumento(String documento) {
         this.documento = documento;
+    }
+
+    @Override
+    public String toString() {
+        return "PessoaDTO{" +
+                "nome='" + nome + '\'' +
+                ", idade='" + idade + '\'' +
+                ", documento='" + documento + '\'' +
+                '}';
     }
 }
