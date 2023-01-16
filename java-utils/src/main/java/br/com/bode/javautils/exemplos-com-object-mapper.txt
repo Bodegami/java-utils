@@ -1,0 +1,5 @@
+1 - Case 01 = transformando objeto em arquivo .json
+
+
+Obs:
+    A anotacao @JsonProperty, indica como o nome virá no arquivo json
