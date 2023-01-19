@@ -1,0 +1,21 @@
+{
+  "nome": "renato",
+  "idade": 35,
+  "documento": [
+    {
+      "tipo": "rg",
+      "codigo": "12345678901"
+    },
+    {
+      "tipo": "cpf",
+      "codigo": "9876543211"
+    }
+  ],
+  "endereco": {
+    "rua": "rua xpto",
+    "numero": "55",
+    "bairro": "Ipiranga",
+    "cidade": "SP",
+    "estado": "SP"
+  }
+}
