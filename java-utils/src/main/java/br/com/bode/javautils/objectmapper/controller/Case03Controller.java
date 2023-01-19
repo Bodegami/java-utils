@@ -9,7 +9,7 @@ import java.io.File;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/case04")
+@RequestMapping("/mapper/case03")
 public class Case03Controller {
 
     private final ObjectMapper mapper;

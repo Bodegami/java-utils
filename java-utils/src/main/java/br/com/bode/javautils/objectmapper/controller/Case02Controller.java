@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.File;
 
 @RestController
-@RequestMapping("/case02")
+@RequestMapping("/mapper/case02")
 public class Case02Controller {
 
 

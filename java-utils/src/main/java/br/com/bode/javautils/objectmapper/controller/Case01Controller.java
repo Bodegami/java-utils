@@ -13,7 +13,7 @@ import java.io.File;
 
 
 @RestController
-@RequestMapping("/case01")
+@RequestMapping("/mapper/case01")
 public class Case01Controller {
 
     private final ObjectMapper objectMapper;
