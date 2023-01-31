@@ -7,7 +7,6 @@ target/
 ### STS ###
 .apt_generated
 .classpath
-.TestesUnitarios/.classpath
 .factorypath
 .project
 .settings
